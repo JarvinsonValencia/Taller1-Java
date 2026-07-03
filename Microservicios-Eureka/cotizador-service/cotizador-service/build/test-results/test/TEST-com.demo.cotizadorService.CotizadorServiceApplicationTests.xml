@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.demo.cotizadorService.CotizadorServiceApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-07-03T21:20:26.287Z" hostname="PB0B0983978" time="4.766">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.demo.cotizadorService.CotizadorServiceApplicationTests" time="4.766"/>
+  <system-out><![CDATA[16:20:09.942 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.demo.cotizadorService.CotizadorServiceApplicationTests]: CotizadorServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:20:10.666 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.demo.cotizadorService.CotizadorServiceApplication for test class com.demo.cotizadorService.CotizadorServiceApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.5.15)
+
+2026-07-03T16:20:15.630-05:00  INFO 31576 --- [    Test worker] c.d.c.CotizadorServiceApplicationTests   : Starting CotizadorServiceApplicationTests using Java 17.0.16 with PID 31576 (started by jajvalen in C:\Users\jajvalen\Documents\Microservicios JAVA\Ejercicios Microservicios\cotizador-service\cotizador-service)
+2026-07-03T16:20:15.633-05:00  INFO 31576 --- [    Test worker] c.d.c.CotizadorServiceApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2026-07-03T16:20:19.877-05:00  INFO 31576 --- [    Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=21a13689-e3de-3db9-8433-44abc793725d
+2026-07-03T16:20:25.758-05:00  INFO 31576 --- [    Test worker] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2026-07-03T16:20:25.813-05:00  INFO 31576 --- [    Test worker] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2026-07-03T16:20:26.072-05:00  WARN 31576 --- [    Test worker] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-07-03T16:20:26.231-05:00  INFO 31576 --- [    Test worker] c.d.c.CotizadorServiceApplicationTests   : Started CotizadorServiceApplicationTests in 14.071 seconds (process running for 22.202)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
